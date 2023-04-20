@@ -4,5 +4,10 @@
   },
   "dependencies": {
     "Cypress": "npm:cypress@^12.10.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:ci": "cypress run",
+    "cypress:smoke-test": "cypress run --spec cypress/e2e/*.js"
   }
 }
