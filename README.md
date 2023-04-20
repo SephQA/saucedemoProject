@@ -7,12 +7,12 @@ Steps
 3. Select the highest price item (Please do not use the “Sort By” option on the page).
 4. Add the selected highest price item to the cart
 
-Run tests using npm run & follwoing commands:
+Run tests using npm run & following commands:
 
-//opens cypress app
-"cypress:open": "cypress open",
+//opens cypress app >> 
 
-//runs tests headless
+"cypress:open": "cypress open"
+
+//runs all existing tests headless >> 
+
 "cypress:smoke-test": "cypress run --spec cypress/e2e/*.js" 
-
-FYI npm run cypress:smoke-test > runs all existing tests
